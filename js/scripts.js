@@ -1,5 +1,7 @@
-var withMenuItemsClass = document.getElementsByClassName('button'); 
-	for (k=0; k<length; k++) {
-		alert(withMenuItemsClass.innerText);
-		}
-console.log (withMenuItemsClass);
+var list = document.getElementById('list');
+var add = document.getElementById('addElem');
+	add.addEventListener('click', function() {
+		list.innerHTML += '<li>item </li>';
+
+});
+
